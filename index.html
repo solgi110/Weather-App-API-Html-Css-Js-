@@ -7,10 +7,82 @@
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/2cca22deab.js" crossorigin="anonymous"></script>
+  <link href='https://cdn.boxicons.com/3.0.4/fonts/animations.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-    
+
+
+
+  <div class="bigContainer">
+
+    <div class="titrcontainer">
+      <h2> Weather App </h2>
+
+      <i class="fa fa-arrow-left"></i>
+    </div>
+
+    <div class="seconBigContainer">
+
+      <section id="firstSection">
+
+
+        <form action="#" class="firstFormContainer">
+
+          <p class="errorText"></p>
+
+          <div class="inputAnimation">
+
+            <input type="text" placeholder="Enter your City.." class="searchInp">
+          </div>
+
+        </form>
+
+        <div class="seprator"></div>
+
+        <button type="submit" class="locButton"> Get Device Location </button>
+
+      </section>
+
+      <section id="seconSection">
+
+        <img class="wheatherIcon" src="" alt="">
+
+        <h2 class="tempratoar"> </h2>
+        <p class="descriptionText"> </p>
+        <div class="landtemp">
+          <i class="fa fa-map-marker"></i>
+          <p class="cityLand"></p>
+        </div>
+
+        <div class="status">
+
+          <div class="likes">
+
+            <i class="bx bxs-thermometer"></i>
+
+            <div>
+              <p class="feelslikenumber"></p>
+              <p class="feelsliketext">feels like</p>
+            </div>
+          </div>
+
+          <div class="humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div>
+              <p class="humiditynumber"> </p>
+              <p class="humiditytext">humidity</p>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+  </div>
 
 
 
