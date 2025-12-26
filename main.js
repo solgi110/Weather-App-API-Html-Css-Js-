@@ -29,7 +29,7 @@ const getWeatherofApi = async (data) => {
 
   try {
     const rep = await fetch(`./${data}`);
-    const res = await rep.json();
+    const res = await rep.text();
     console.log(res);
 
     if (res.cod === "404") {
