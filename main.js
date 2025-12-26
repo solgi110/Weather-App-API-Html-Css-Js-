@@ -25,9 +25,10 @@ firstForm.addEventListener('submit', (e) => {
 const getWeatherofApi = async (data) => {
   inputAnime.classList.add('loading')
   errorText.style.display = "none";
+  
 
   try {
-    const rep = await fetch(data);
+    const rep = await fetch(`./${data}`);
     const res = await rep.json();
     console.log(res);
 
